@@ -1,0 +1,87 @@
+body {
+    background-color: #d9ff0057;
+}
+
+h1 {
+    text-align: center;
+    color: #9c0383;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 21px;
+}
+
+/*Criei essa 'caixa' para comportar 'imagem' e 'lista' e conseguir deixar os elementos lado a lado.*/
+.caixa {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 0;
+}
+
+ul li {
+    padding: 15px;
+    font-size: 18px;
+}
+
+#compor {
+    border-radius: 30px;
+    width: auto;
+    height: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #000000;
+    background-color: #8cc433;
+    table-layout: fixed;
+    width: 50%;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+table .texto{
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+table .imagem{
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.centralizarLink {
+    text-align: center;
+}
+
+#link {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#link:hover{
+    color: #ff0202;
+}
+
+#mensagem {
+    background-color: #ff0202;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botaoM {
+    text-align: center;
+}
